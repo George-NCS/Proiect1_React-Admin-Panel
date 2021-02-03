@@ -1,0 +1,19 @@
+
+.user-item img{
+    width: 100px;
+    height: 100px;
+    float: inline-start;
+}
+.user-item{
+    background-color: rgb(241, 241, 247);
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(163, 158, 158);
+    border-radius:5px;
+    
+}
+#gold{
+    color:gold;
+    font-weight: bold;
+}

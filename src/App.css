@@ -1,0 +1,47 @@
+/* Daca vrem ca aplicatia sa ocupe intreg viewport-ul. */
+.app {
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+  body {
+    font-family: "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+
+}
+
+.app h1 {
+  margin-top: 0;
+  padding-left: 2%;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom left, rgb(23,144, 199), rgb(2, 183, 255));
+  color:white;
+}
+
+.buttonColor{
+  font-weight: bold;
+  margin-left: 10px;
+}
+.show{
+  background-color: rgb(212, 211, 211);
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition-duration: 0.4s;
+  
+}
+.show:hover{
+  background-color: rgb(172, 169, 169);
+  color: white;
+  
+  
+}
+.show:active{
+  background-color: grey;
+  color: white;
+  outline: none;
+  transform: translateY(4px)
+}
