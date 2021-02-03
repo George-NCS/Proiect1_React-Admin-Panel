@@ -82,15 +82,14 @@ class App extends React.Component {
     console.log(this.state.posts)
   }
 
-  handleDeleteUser = (user) => {
-        let data = [...this.state.users];
-        data.splice(user, 1);
-        console.log(data)
-        this.setState({ 
-          users: data
-        })
-      }
-
+  handleDeleteUser(user){
+    let data = [...this.state.users];
+    data.splice(user, 1);
+    console.log(data)
+    this.setState({ 
+      users: data
+  })
+}
   render() {
     return(
       <div className="app" style={{background: this.state.background,color:this.state.color}}>
